@@ -8,8 +8,8 @@ import 'package:stable/pages/third_page.dart';
 import 'package:stable/theme.dart';
 import 'package:stable/widgets/widgets.dart';
 
-class Home_Screen extends StatelessWidget {
-  Home_Screen({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  HomeScreen({Key? key}) : super(key: key);
 
   final ValueNotifier<int> pageIndex = ValueNotifier(0);
   final ValueNotifier<String> title = ValueNotifier('First');
@@ -52,7 +52,9 @@ class Home_Screen extends StatelessWidget {
             );
           },
         ),
-        leading: Center(
+        leadingWidth: 54,
+        leading: Align(
+          alignment: Alignment.center,
           child: IconBackground(
             icon: Icons.search,
             onTap: () {

@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       title: 'Stable',
-      home: Home_Screen()
+      home: HomeScreen()
     );
   }
 }
