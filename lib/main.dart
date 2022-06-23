@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: appTheme.light,
       darkTheme: appTheme.dark,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
       title: 'Stable',
-      home: HomeScreen()
+      home: LoginScreen()
     );
   }
 }
